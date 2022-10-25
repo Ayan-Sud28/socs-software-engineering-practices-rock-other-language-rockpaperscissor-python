@@ -16,8 +16,11 @@ class RockPaperScissors:
     def display(self, message):
         print(message)
 
-    def get_input(self, message):
-        return int(input(message))
+    def get_input_string(self, message):
+        return input(message)
+
+    def get_input_int(self, message):
+        return int(self.get_input_string(message))
 
     def determine_winner(self, player, computer):
         if player == computer:
@@ -36,7 +39,7 @@ class RockPaperScissors:
 
     def get_user_choice(self, weapons):
         request = self.get_user_choice_request(weapons)
-        player = self.get_input(request)
+        player = self.get_input_int(request)
         if player in [0, 1, 2]:
             self.display("You selected " + weapons[player])
         return player
@@ -77,7 +80,7 @@ class RockPaperScissors:
 
     def get_game(self):
         request = self.generate_games_list_request()
-        user_game = self.get_input(request)
+        user_game = self.get_input_int(request)
         weapons_lists = self.get_weapon_lists()
         return weapons_lists[user_game]
 

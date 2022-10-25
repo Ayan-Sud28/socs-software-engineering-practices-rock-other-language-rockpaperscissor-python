@@ -13,9 +13,9 @@
 
 Amend the RockPaperScissors method playGame:
 * Create a local variable of type String name
-* Set the name equal to the return from consoleStringInput pass in "Enter name"
-* Pass the variable to the method determineWinner
-* Amend determineWinner to take in the name parameter
+* Set the name equal to the return from get_input_string pass in "Enter name"
+* Pass the variable to the method determine_winner
+* Amend determine_winner to take in the name parameter
 * If the user winners tell them by name they have one
 * Build the project to check no errors
 * Run the game to check it works and when you win it uses your name

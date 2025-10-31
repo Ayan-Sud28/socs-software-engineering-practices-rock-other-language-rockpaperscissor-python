@@ -1,3 +1,3 @@
-from src.RockPaperScissors import main
+from RockPaperScissors import play
 
-main()
+play()

@@ -2,7 +2,7 @@
 
 ## Setup
 
-* For a full list of instructions see [https://stgit.dcs.gla.ac.uk/software-engineering/starting-a-lab/-/wikis/home/Setup](https://stgit.dcs.gla.ac.uk/software-engineering/starting-a-lab/-/wikis/home/Setup)
+* For a full list of instructions, see [https://github.com/uog-cose/socs-software-engineering-practices-starting-a-lab/wiki](https://github.com/uog-cose/socs-software-engineering-practices-starting-a-lab/wiki)
 * Fork this project
 
 ## Instructions To Amend
@@ -23,7 +23,7 @@ Amend the RockPaperScissors method playGame:
 ## Instructions to Commit
 
 * We now want to commit the changes to GitLab
-* See git commit [https://stgit.dcs.gla.ac.uk/software-engineering/starting-a-lab/-/wikis/home/Git/Commands/Git-commit-(direct)](https://stgit.dcs.gla.ac.uk/software-engineering/starting-a-lab/-/wikis/home/Git/Commands/Git-commit-(direct))
+* See git commit [https://github.com/uog-cose/socs-software-engineering-practices-starting-a-lab/wiki/Commit](https://github.com/uog-cose/socs-software-engineering-practices-starting-a-lab/wiki/Commit)
 * Log into your GitLab Account go to your forked project
 * Check the history for the commit
 

@@ -15,7 +15,7 @@ def determine_winner(player, computer, name):
     if player == computer:
         result = "Draw"
     elif (player + 1)%3 == computer:
-        result = name + " wins"
+        result = name  + " wins"
     elif (computer + 1)%3 == player:
         result = "Computer Wins"
     return result
